@@ -35,11 +35,11 @@ function categories_list( $request_data ) {
 /*
 *
 * Register Rest API Endpoint
-* Route: {URL}/wp-json/news/v1/categories
+* Route: {URL}/wp-json/posts/v1/categories
 *
 */
 add_action( 'rest_api_init', function () {
-	register_rest_route( 'news/v1', '/categories/', array(
+	register_rest_route( 'posts/v1', '/categories/', array(
 		'methods' => 'GET',
 		'callback' => 'categories_list'
 		) );
