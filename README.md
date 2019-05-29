@@ -51,3 +51,24 @@ It returns a JSON response with the following:
 - Title
 - Date (timestamp)
 - Link
+
+### Books by Genre
+**`{URL}/wp-json/books/v1/bygenre`**
+Get books grouped by genre, also include an image carousel and general info by genre. Accepts no parameters.
+
+It returns a JSON response with the following:
+##### Genre - General info
+- Title
+- Description
+- Image
+
+##### Genre - Image Carousel
+- Title
+- Description
+- Images
+
+##### Posts by Genre
+- Image
+- Title
+- Description
+- Link

@@ -29,4 +29,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/categories-list.php' );
 // Upcoming events
 require_once( plugin_dir_path( __FILE__ ) . 'includes/upcoming-events.php' );
 
+// Books by genre
+require_once( plugin_dir_path( __FILE__ ) . 'includes/books_by_genre.php' );
+
 ?>
