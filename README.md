@@ -83,3 +83,10 @@ It returns a JSON response with the following:
 - Image
 - Link
 - Order (int)
+
+### Books by ID
+**`{URL}/wp-json/books/v1/detail/{book_id}`**
+Get a book by ID. Accepts the following parameter:
+
+It returns a JSON response with the following:
+- ACF fields: 'content_blocks_books'

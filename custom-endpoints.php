@@ -35,4 +35,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/books_by_genre.php' );
 // Books featured
 require_once( plugin_dir_path( __FILE__ ) . 'includes/books-featured.php' );
 
+// Books by ID
+require_once( plugin_dir_path( __FILE__ ) . 'includes/get-book-by-id.php' );
+
 ?>
