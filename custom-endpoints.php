@@ -38,4 +38,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/books-featured.php' );
 // Books by ID
 require_once( plugin_dir_path( __FILE__ ) . 'includes/get-book-by-id.php' );
 
+// Hero
+require_once( plugin_dir_path( __FILE__ ) . 'includes/hero-posts.php' );
+
 ?>

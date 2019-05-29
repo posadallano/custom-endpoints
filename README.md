@@ -86,7 +86,16 @@ It returns a JSON response with the following:
 
 ### Books by ID
 **`{URL}/wp-json/books/v1/detail/{book_id}`**
-Get a book by ID. Accepts the following parameter:
+Get a book by ID. Accepts no parameters.
 
 It returns a JSON response with the following:
 - ACF fields: 'content_blocks_books'
+
+### Posts Hero from Options page
+**`{URL}/wp-json/posts/v1/hero`**
+Get Hero from Options page. Accepts no parameters.
+
+It returns a JSON response with the following:
+- Title
+- Description
+- Background
