@@ -86,7 +86,8 @@ It returns a JSON response with the following:
 
 ### Books by ID
 **`{URL}/wp-json/books/v1/detail/{book_id}`**
-Get a book by ID. Accepts no parameters.
+Get a book by ID. Accepts the following parameter:
+- ID (int)
 
 It returns a JSON response with the following:
 - ACF fields: 'content_blocks_books'
