@@ -42,3 +42,12 @@ Get a list of Categories used by WordPress posts. Accepts no parameters.
 It returns a JSON response with the following:
 - Category Name
 - Category ID
+
+### Upcoming Events (custom post type)
+**`{URL}/wp-json/posts/v1/upcoming_events`**
+Get the 10 Upcoming Events (posts) from now (by date). Accepts no parameters.
+
+It returns a JSON response with the following:
+- Title
+- Date
+- Link

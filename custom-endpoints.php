@@ -14,13 +14,13 @@ if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly
 }
 
-// Load Scripts
+// Load scripts
 require_once(plugin_dir_path(__FILE__) . '/includes/custom-endpoints-scripts.php');
 
 // Home content
 require_once( plugin_dir_path( __FILE__ ) . 'includes/home-content.php' );
 
-// Archive Posts
+// Archive posts
 require_once( plugin_dir_path( __FILE__ ) . 'includes/get-posts.php' );
 
 // Posts by ID
@@ -28,5 +28,8 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/get-post-by-id.php' );
 
 // Categories list
 require_once( plugin_dir_path( __FILE__ ) . 'includes/categories-list.php' );
+
+// Upcoming events
+require_once( plugin_dir_path( __FILE__ ) . 'includes/upcoming-events.php' );
 
 ?>
