@@ -23,6 +23,9 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/home-content.php' );
 // Archive Posts
 require_once( plugin_dir_path( __FILE__ ) . 'includes/get-posts.php' );
 
+// Posts by ID
+require_once( plugin_dir_path( __FILE__ ) . 'includes/get-post-by-id.php' );
+
 // Categories list
 require_once( plugin_dir_path( __FILE__ ) . 'includes/categories-list.php' );
 

@@ -24,6 +24,17 @@ It returns a JSON response with the following:
 - Post Link
 - Categories list (array: name & link)
 
+### Get Post by ID
+**`{URL}/wp-json/posts/v1/detail/{post_id}`**
+Get a post by ID. Accepts the following parameter:
+- ID (int)
+
+It returns a JSON response with the following:
+- Title
+- Image
+- Content
+- Categories list (array: name & link)
+
 ### Categories List
 **`{URL}/wp-json/news/v1/categories`**
 Get a list of Categories used by WordPress posts. Accepts no parameters.
