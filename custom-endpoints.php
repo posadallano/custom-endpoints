@@ -14,9 +14,6 @@ if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly
 }
 
-// Load scripts
-require_once(plugin_dir_path(__FILE__) . '/includes/custom-endpoints-scripts.php');
-
 // Home content
 require_once( plugin_dir_path( __FILE__ ) . 'includes/home-content.php' );
 
