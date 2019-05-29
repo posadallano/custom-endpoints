@@ -72,3 +72,14 @@ It returns a JSON response with the following:
 - Title
 - Description
 - Link
+
+### Featured Books ordered
+**`{URL}/wp-json/books/v1/featured`**
+Get the 10 Featured Books ordered. Accepts no parameters.
+
+It returns a JSON response with the following:
+- Title
+- Description
+- Image
+- Link
+- Order (int)
