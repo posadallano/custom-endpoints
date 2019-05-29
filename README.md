@@ -49,5 +49,5 @@ Get the 10 Upcoming Events (posts) from now (by date). Accepts no parameters.
 
 It returns a JSON response with the following:
 - Title
-- Date
+- Date (timestamp)
 - Link
