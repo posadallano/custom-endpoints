@@ -92,7 +92,7 @@ Get a book by ID. Accepts the following parameter:
 It returns a JSON response with the following:
 - ACF fields: 'content_blocks_books'
 
-### Posts Hero from Options page
+### Hero from Options page
 **`{URL}/wp-json/posts/v1/hero`**
 Get Hero from Options page. Accepts no parameters.
 
